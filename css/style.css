@@ -1,0 +1,115 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif !important;
+}
+
+.color-blue {
+    color: rgb(60, 60, 134) !important;
+}
+
+.color-mid-blue {
+    color: rgb(126, 126, 151) !important;
+}
+
+.color-pink {
+    color: rgba(255, 192, 203, 0.55);
+}
+
+.background-blue {
+    background-color: rgb(44, 44, 124);
+}
+
+.hotels-title {
+    font-size: 0.9rem;
+}
+
+.hero-section {
+    background-image: url('/images/hero-section/zero-take-WvHrrR1C5Po-unsplash.jpg');
+    min-height: 40rem;
+    background-size: cover;
+
+}
+
+.check-button {
+    background-color: rgb(60, 60, 134);
+}
+
+.house-image {
+    width: 25rem;
+
+}
+
+.pool-image {
+    width: 25rem;
+}
+
+.house2-image {
+    width: 25rem;
+}
+/* 
+.rooms-image img {
+    /* width: 100%; */
+    /* width: 100vw !important; */
+
+/* }  */
+
+@media (min-width:768px) {
+    .house-image {
+        width: 18rem;
+    
+    }
+
+    .pool-image {
+        width: 18rem;
+    }
+
+    .house2-image {
+        width: 18rem;
+    }
+/* 
+    .rooms-section {
+        width: 100% !important;
+    }
+    .rooms-info {
+        width: 50% !important;
+    } */
+
+    .rooms-image img {
+        /* width: 50% !important; */
+         height: 32rem !important; 
+    } 
+}
+
+@media (min-width:1024px){
+    .hero-section {
+        background-image: url('/images/hero-section/zero-take-WvHrrR1C5Po-unsplash.jpg');
+        min-height: 40rem;
+        background-size: cover;
+    
+    }
+    .house-image {
+        position: relative;
+        height: 17rem !important;
+        width: 18rem;
+    
+    }
+    .pool-image {
+        position: absolute;
+        /* height: 15rem !important; */
+        top: 35%;
+        left: 73%;
+        width: 18rem;
+    }
+    .house2-image {
+        position: absolute;
+        top: 55%;
+        left: 65%;
+        /* height: 15rem !important; */
+        width: 18rem;
+    }
+}
+
+@media (min-width:1024px){
+
+}
+/* welcome section */
