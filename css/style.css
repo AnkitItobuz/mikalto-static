@@ -52,6 +52,13 @@ body {
     /* width: 100vw !important; */
 
 /* }  */
+.room-section-info{
+    width: 100%;
+}
+.room-section-image {
+    width: 100%;
+
+}
 
 @media (min-width:768px) {
     .house-image {
@@ -78,6 +85,15 @@ body {
         /* width: 50% !important; */
          height: 32rem !important; 
     } 
+
+    .room-section-info {
+        padding-left: 10rem;
+        width: 50%;
+        height: 23.7rem;
+    }
+    .room-section-image {
+        width: 50%;
+    }
 }
 
 @media (min-width:1024px){
@@ -106,6 +122,12 @@ body {
         left: 65%;
         /* height: 15rem !important; */
         width: 18rem;
+    }
+
+    .room-section-info {
+        /* padding-left: 10rem;
+        width: 50%; */
+        height: 33.7rem;
     }
 }
 
