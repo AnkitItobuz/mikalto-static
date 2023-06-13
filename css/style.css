@@ -46,24 +46,47 @@ body {
 .house2-image {
     width: 25rem;
 }
-/* 
-.rooms-image img {
-    /* width: 100%; */
-    /* width: 100vw !important; */
 
-/* }  */
-.room-section-info{
+.room-section-info {
     width: 100%;
 }
+
 .room-section-image {
     width: 100%;
+}
 
+.room-section-image img {
+    width: 100%;
+
+
+}
+
+.icon-size {
+    font-size: 3rem;
+}
+
+li {
+    /* content: '• '; */
+    color: pink;
+    
+}
+
+.experience-cards-text {
+    width: 15rem;
+}
+
+.activities-image img{
+    width: 100vw;
+}
+
+.experience-cards img {
+    height: 23rem;
 }
 
 @media (min-width:768px) {
     .house-image {
         width: 18rem;
-    
+
     }
 
     .pool-image {
@@ -73,65 +96,100 @@ body {
     .house2-image {
         width: 18rem;
     }
-/* 
-    .rooms-section {
-        width: 100% !important;
-    }
-    .rooms-info {
-        width: 50% !important;
-    } */
 
-    .rooms-image img {
-        /* width: 50% !important; */
-         height: 32rem !important; 
-    } 
+    .rooms-info {
+        width: 50%;
+    }
 
     .room-section-info {
         padding-left: 10rem;
         width: 50%;
-        height: 23.7rem;
+        height: 23.5rem;
     }
+
     .room-section-image {
         width: 50%;
     }
+
+    .room-section-image img {
+        height: 23.5rem;
+
+    }
+
+    .bed-specification {
+        width: 70%;
+    }
+
+    /* .activities-image img{
+        height: 20rem;
+        width: 40vw;
+    } */
+
+    
 }
 
-@media (min-width:1024px){
+/* @media (min-width: 990px) {
+    .activities-image img{
+        height: 61vh;
+        width: 100vw;
+    }
+} */
+
+@media (min-width:1024px) {
     .hero-section {
         background-image: url('/images/hero-section/zero-take-WvHrrR1C5Po-unsplash.jpg');
         min-height: 40rem;
         background-size: cover;
-    
+
     }
+
     .house-image {
         position: relative;
         height: 17rem !important;
         width: 18rem;
-    
+
     }
+
     .pool-image {
         position: absolute;
-        /* height: 15rem !important; */
         top: 35%;
         left: 73%;
         width: 18rem;
     }
+
     .house2-image {
         position: absolute;
         top: 55%;
         left: 65%;
-        /* height: 15rem !important; */
         width: 18rem;
     }
 
     .room-section-info {
-        /* padding-left: 10rem;
-        width: 50%; */
-        height: 33.7rem;
+        height: 27.7rem;
+    }
+    .room-section-image {
+        width: 60%;
+    }
+
+    .room-section-image img {
+        height: 27.7rem;
+    }
+    .activities-image img{
+        height: 61vh;
+        width: 100vw;
     }
 }
 
-@media (min-width:1024px){
+@media (min-width:1400px) {
+    .room-section-info {
+        height: 33.7rem;
+    }
 
+    .room-section-image img {
+        height: 33.7rem;
+    }
+    .activities-image img{
+        height: 61vh;
+        width: 50vw;
+    }
 }
-/* welcome section */
