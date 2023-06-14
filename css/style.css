@@ -119,6 +119,10 @@ li {
 .join-us-section {
     background-color: rgba(255, 192, 203, 0.546);
 }
+
+.subscribe-box {
+    width: 40%;
+}
 @media (min-width:768px) {
     .house-image {
         width: 18rem;
