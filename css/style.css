@@ -16,7 +16,7 @@ body {
 }
 
 .background-blue {
-    background-color: rgb(44, 44, 124);
+    background-color: rgb(57, 57, 111);
 }
 
 .hotels-title {
@@ -31,7 +31,7 @@ body {
 }
 
 .check-button {
-    background-color: rgb(60, 60, 134);
+    background-color: rgb(64, 64, 170);
 }
 
 .house-image {
@@ -66,7 +66,6 @@ body {
 }
 
 li {
-    /* content: '• '; */
     color: pink;
     
 }
@@ -123,6 +122,25 @@ li {
 .subscribe-box {
     width: 40%;
 }
+
+.customer-image {
+    height: 3rem;
+}
+
+.rating-section {
+    background-color: rgba(250, 235, 215, 0.521);
+}
+
+.rating-card {
+    display: none;
+}
+
+.ratings-icon {
+
+    color: rgb(16, 168, 102);
+}
+
+
 @media (min-width:768px) {
     .house-image {
         width: 18rem;
@@ -244,6 +262,10 @@ li {
 
     .google-map {
         width: 25vw;
+    }
+
+    .rating-card {
+        display: block;
     }
 }
 
