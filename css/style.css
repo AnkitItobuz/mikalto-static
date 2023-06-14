@@ -75,14 +75,50 @@ li {
     width: 15rem;
 }
 
+.activities-info {
+    width: 70vw;
+}
+
 .activities-image img{
-    width: 100vw;
+    width: 70vw;
 }
 
 .experience-cards img {
     height: 23rem;
 }
 
+.hello-section {
+    background-image: url('/images/hello-section/pool.jpg');
+     background-size: cover;
+    min-height: 25rem;
+}
+
+.hello-section-card {
+    width: 70vw ;   
+}
+
+.google-map {
+    width: 66vw;
+}
+
+.bridge-image img {
+    width: 15rem;
+    height: 17rem;
+}
+
+.cat-image {
+    width: 15rem;
+    height: 17rem;
+}
+
+.dog-image {
+    width: 15rem;
+    height: 17rem;
+}
+
+.join-us-section {
+    background-color: rgba(255, 192, 203, 0.546);
+}
 @media (min-width:768px) {
     .house-image {
         width: 18rem;
@@ -120,10 +156,24 @@ li {
         width: 70%;
     }
 
-    /* .activities-image img{
-        height: 20rem;
-        width: 40vw;
-    } */
+    .hello-section-card {
+        width: 50vw;
+        margin-left: 20rem;
+    }
+    .bridge-image img {
+        width: 30rem;
+        height: 35rem;
+    }
+    
+    .cat-image {
+        width: 15rem;
+        height: 17rem;
+    }
+    
+    .dog-image {
+        width: 15rem;
+        height: 17rem;
+    }
 
     
 }
@@ -174,9 +224,22 @@ li {
     .room-section-image img {
         height: 27.7rem;
     }
+
+    .activities-info {
+        width: 70vw;
+    }
     .activities-image img{
         height: 61vh;
-        width: 100vw;
+        width: 70vw;
+    }
+
+   
+.hello-section-card {
+    width: 25vw ;   
+}
+
+    .google-map {
+        width: 25vw;
     }
 }
 
@@ -188,6 +251,12 @@ li {
     .room-section-image img {
         height: 33.7rem;
     }
+
+    .activities-info {
+        height: 61vh;
+        width: 100vw;
+    }
+
     .activities-image img{
         height: 61vh;
         width: 50vw;
