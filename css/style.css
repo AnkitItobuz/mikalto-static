@@ -1,6 +1,8 @@
 body {
     box-sizing: border-box;
     font-family: 'Playfair Display', serif !important;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .color-blue {
@@ -30,10 +32,6 @@ body {
 
 }
 
-.check-button {
-    background-color: rgb(64, 64, 170);
-}
-
 .house-image {
     width: 25rem;
 
@@ -45,6 +43,17 @@ body {
 
 .house2-image {
     width: 25rem;
+}
+
+.welcome-left {
+    width: 17rem;
+}
+
+.hero-btn:hover {
+
+    background-color: white !important;
+    /* padding: 1rem; */
+    color: black !important;
 }
 
 .room-section-info {
@@ -68,38 +77,49 @@ body {
 
 li {
     color: pink;
-    
+
 }
+
 
 .experience-cards-text {
     width: 15rem;
 }
 
-.activities-info {
-    width: 70vw;
+.experience-spa-head {
+    width: 81%;
 }
 
-.activities-image img{
-    width: 70vw;
+.activities-info {
+    width: 95vw;
+}
+
+.activities-image img {
+    width: 95vw;
 }
 
 .experience-cards img {
     height: 23rem;
 }
 
+.rating-card {
+    width: 21%;
+}
+
 .hello-section {
     background-image: url('/images/hello-section/pool.jpg');
-     background-size: cover;
+    background-size: cover;
     min-height: 25rem;
 }
 
 .hello-section-card {
-    width: 70vw ;   
+    width: 70vw;
 }
 
 .google-map {
     width: 66vw;
 }
+
+
 
 .bridge-image img {
     width: 15rem;
@@ -120,8 +140,12 @@ li {
     background-color: rgba(255, 192, 203, 0.546);
 }
 
+.join-us-text {
+    width: 56%;
+}
+
 .subscribe-box {
-    width: 40%;
+    width: 45%;
 }
 
 .customer-image {
@@ -147,7 +171,7 @@ li {
 
 .scroll-btn {
     cursor: pointer;
-    position:absolute;
+    position: absolute;
     top: 50%;
     opacity: 0.5;
 }
@@ -155,8 +179,9 @@ li {
 .scroll-btn:hover {
     opacity: 1;
 }
+
 .right-scroll {
-    right:10px;
+    right: 10px;
 }
 
 .left-scroll {
@@ -164,8 +189,24 @@ li {
 }
 
 .slides {
-   display: none !important;
+    display: none !important;
+
 }
+
+
+
+.link-text:hover {
+    color: chocolate !important;
+    cursor: pointer;
+    scale: 1.2;
+}
+
+.slider {
+    transition-duration: 10s;
+
+    transform: translatex(100%);
+}
+
 @media (min-width:768px) {
     .house-image {
         width: 18rem;
@@ -180,14 +221,12 @@ li {
         width: 18rem;
     }
 
-    .rooms-info {
-        width: 50%;
-    }
+
 
     .room-section-info {
-        padding-left: 10rem;
-        width: 50%;
-        height: 23.5rem;
+        /* padding-left: 10rem; */
+        width: 100%;
+        height: 25.5rem;
     }
 
     .room-section-image {
@@ -195,7 +234,8 @@ li {
     }
 
     .room-section-image img {
-        height: 23.5rem;
+        height: 25.5rem;
+        width: 100%;
 
     }
 
@@ -203,36 +243,52 @@ li {
         width: 70%;
     }
 
+    .experience-head {
+        width: 43rem;
+    }
+
+    .choose-us-card {
+        /* width: 70%; */
+    }
+
+    .activities-info {
+        width: 70vw;
+    }
+
+    .activities-image img {
+        width: 70vw;
+    }
+
     .hello-section-card {
         width: 50vw;
         margin-left: 20rem;
     }
+
     .bridge-image img {
         width: 30rem;
         height: 35rem;
     }
-    
+
     .cat-image {
         width: 15rem;
         height: 17rem;
     }
-    
+
     .dog-image {
         width: 15rem;
         height: 17rem;
     }
 
-    
+
 }
 
-/* @media (min-width: 990px) {
-    .activities-image img{
-        height: 61vh;
-        width: 100vw;
-    }
-} */
-
 @media (min-width:1024px) {
+
+    body {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
     .hero-section {
         background-image: url('/images/hero-section/zero-take-WvHrrR1C5Po-unsplash.jpg');
         min-height: 40rem;
@@ -261,9 +317,10 @@ li {
         width: 18rem;
     }
 
-    .room-section-info {
-        height: 27.7rem;
+    .map-section-left {
+        width: 30%;
     }
+
     .room-section-image {
         width: 60%;
     }
@@ -275,23 +332,31 @@ li {
     .activities-info {
         width: 70vw;
     }
-    .activities-image img{
+
+    .activities-image img {
         height: 61vh;
         width: 70vw;
     }
 
-   
-.hello-section-card {
-    width: 25vw ;   
-}
+    .choose-us-card {
+        width: 30%;
+    }
+
+    .hello-section-card {
+        width: 25vw;
+    }
 
     .google-map {
-        width: 25vw;
+        width: 30vw;
     }
 
     .rating-card {
         display: block;
     }
+
+    .footer-text {
+        width: 18vw;
+    } 
 }
 
 @media (min-width:1400px) {
@@ -304,12 +369,12 @@ li {
     }
 
     .activities-info {
-        height: 61vh;
+        height: 48vh;
         width: 100vw;
     }
 
-    .activities-image img{
-        height: 61vh;
+    .activities-image img {
+        height: 48vh;
         width: 50vw;
     }
 }
