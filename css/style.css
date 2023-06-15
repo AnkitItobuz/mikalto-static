@@ -49,6 +49,7 @@ body {
 
 .room-section-info {
     width: 100%;
+
 }
 
 .room-section-image {
@@ -140,7 +141,31 @@ li {
     color: rgb(16, 168, 102);
 }
 
+.room-section-image {
+    position: relative;
+}
 
+.scroll-btn {
+    cursor: pointer;
+    position:absolute;
+    top: 50%;
+    opacity: 0.5;
+}
+
+.scroll-btn:hover {
+    opacity: 1;
+}
+.right-scroll {
+    right:10px;
+}
+
+.left-scroll {
+    left: 10px;
+}
+
+.slides {
+   display: none !important;
+}
 @media (min-width:768px) {
     .house-image {
         width: 18rem;
